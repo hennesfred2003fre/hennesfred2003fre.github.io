@@ -1,0 +1,273 @@
+@import url(styles.css);
+
+/*estilos de la portada*/
+
+#portada {
+    background-image: url("../IMAGEN/prendas.png");
+    height: calc(100vh - 100px);
+}
+
+.portada {
+    height: 100%;
+}
+
+.foto_portada {
+    display: flex;
+    justify-content: center;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.texto_portada {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+
+}
+
+#portada2 {
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: 500px;
+}
+
+.boton_portada {
+    height: 100%;
+    margin-top: 250px;
+}
+
+.boton_portada2 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+
+#portada3 {
+    background-color: rgb(124, 124, 124);
+    background-position: center;
+}
+
+.portada_3 {
+    height: 500px;
+}
+
+.categoria {
+    padding: 10px 30px;
+    background-color: var(--colornegro);
+    border-radius: 0 50px 0 50px;
+
+    & h2 {
+        color: var(--colorblanco);
+    }
+}
+
+.menu2 {
+    width: 100%;
+    height: 100%;
+    background-color: #f1ebdf8c;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.buscador {
+    padding: 50px;
+    width: 100%;
+}
+
+.foto_portadafooter {
+    align-items: baseline;
+    justify-content: center;
+    padding: 25px 0 25px 25px;
+}
+
+.foto_descuento {
+    position: relative;
+    display: inline-block;
+
+    & .foto_portadafooter {
+        width: 100%;
+        height: auto;
+    }
+
+    & .boton_descuento {
+        position: absolute;
+        bottom: 0%;
+        left: 27%;
+        top: 30%;
+        padding: 25px;
+    }
+}
+
+#sitioweb2 {
+    background-image: url("../IMAGEN/fondo\ mujeres.png");
+    background-position: center;
+
+    & p {
+        margin-left: 400px;
+        padding: 20px;
+        -webkit-text-stroke-width: 2.5px;
+        -webkit-text-stroke-color: #FFD8FB;
+        font-size: 5rem;
+    }
+}
+
+.sitioweb {
+    height: 500px;
+}
+
+.ropamujeres {
+    padding: 20px;
+
+
+
+    & .boton_descuento1 {
+        position: absolute;
+        bottom: 0%;
+        top: 30%;
+        padding: 25px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+
+    /* modificar tamaño de imagen de la portada */
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+    /* modificar alineación de textos */
+    .textos_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorazul);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de servicios */
+    .foto_descuento {
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+    .categoria {
+
+        & h2 {
+            font-size: 2rem;
+            text-transform: none;
+        }
+    }
+
+
+    /* modifica el tamaño de la imagen de testimonios */
+    .testimonio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* cambiar direccion del displey alinear el contenido al centro */
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* modificar tamaño de imagen de la portada */
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+    /* modificar alineación de textos */
+    .textos_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorazul);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de servicios */
+    .foto_descuento {
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+    .categoria {
+
+        & h2 {
+            font-size: 2rem;
+            text-transform: none;
+        }
+    }
+
+
+    /* modifica el tamaño de la imagen de testimonios */
+    .testimonio_foto {
+        width: 75%;
+        height: auto;
+    }
+
+    /* cambiar direccion del displey alinear el contenido al centro */
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+}
