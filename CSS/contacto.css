@@ -1,0 +1,260 @@
+@import url(styles.css);
+
+.datos {
+
+    margin-top: 50px;
+
+    & p {
+        text-align: center;
+        font-size: 2.5rem;
+        color: var(--colornegro);
+
+    }
+}
+
+.lista_datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.lista_datos_1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.lista_datos_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+
+    & img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.formulario_input {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.grupo_input input,
+textarea {
+    color: var(--colorblanco);
+    width: 90%;
+    background-color: var(--colorrojo);
+}
+
+.titulomapa {
+    text-align: center;
+    padding: 50px;
+}
+
+.formulario_items {
+    padding: 90px;
+
+    & p {
+        font-size: 3rem;
+        text-align: center;
+        color: var(--colornegro);
+        padding: 20px;
+    }
+
+    & h3 {
+        font-size: 3rem;
+        text-align: center;
+        color: var(--colornegro);
+    }
+
+
+
+    & h5 {
+        text-align: center;
+        font-size: 1.3rem;
+        text-align: center;
+        color: var(--colornegro);
+    }
+}
+
+.formulario {
+    background-color: #8f8f8f44;
+}
+
+@media (max-width: 1023px) {
+    .datos {
+
+        margin-top: 50px;
+
+        & p {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--colornegro);
+
+        }
+    }
+
+    .lista_datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista_datos_1 {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .lista_datos_imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+
+        & img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .formulario_input {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .grupo_input input,
+    textarea {
+        width: 90%;
+        background-color: var(--colorrojo);
+    }
+
+    .titulomapa {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .formulario_items {
+        padding: 13px;
+
+        & p {
+            font-size: 2rem;
+            text-align: center;
+            color: var(--colornegro);
+            padding: 20px;
+        }
+
+        & h3 {
+            font-size: 3rem;
+            text-align: center;
+            color: var(--colornegro);
+        }
+
+
+
+        & h5 {
+            text-align: center;
+            font-size: 1.3rem;
+            text-align: center;
+            color: var(--colornegro);
+        }
+    }
+
+    .formulario {
+        background-color: #8f8f8f44;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .datos {
+
+        margin-top: 50px;
+
+        & p {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--colornegro);
+
+        }
+    }
+
+    .lista_datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista_datos_1 {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .lista_datos_imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+
+        & img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .formulario_input {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .grupo_input input,
+    textarea {
+        width: 90%;
+        background-color: var(--colorrojo);
+    }
+
+    .titulomapa {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .formulario_items {
+        padding: 30px;
+
+        & p {
+            font-size: 2rem;
+            text-align: center;
+            color: var(--colornegro);
+            padding: 20px;
+        }
+
+        & h3 {
+            font-size: 3rem;
+            text-align: center;
+            color: var(--colornegro);
+        }
+
+
+
+        & h5 {
+            text-align: center;
+            font-size: 1.3rem;
+            text-align: center;
+            color: var(--colornegro);
+        }
+    }
+
+    .formulario {
+        background-color: #8f8f8f44;
+    }
+
+}

@@ -220,13 +220,24 @@ button {
 .grid_footer {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
-    grid-gap: 5px;
+    grid-gap: 20px;
 }
 
 .grid_footer1 {
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     grid-gap: 20px;
+}
+
+.grid_f {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+::placeholder {
+    color: var(--colorblanco);
 }
 
 @media (max-width: 1023px) {
@@ -287,6 +298,13 @@ button {
         width: 100%;
 
     }
+
+    .grid_f {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -346,5 +364,12 @@ button {
         height: auto;
         width: 100%;
 
+    }
+
+    .grid_f {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
 }

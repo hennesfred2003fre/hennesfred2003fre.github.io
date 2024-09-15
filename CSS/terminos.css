@@ -1,0 +1,10 @@
+@import url(styles.css);
+
+.terminos {
+    padding: 20px;
+
+    & h4 {
+        padding: 20px;
+        text-align: center;
+    }
+}

@@ -118,7 +118,7 @@
     background-position: center;
 
     & p {
-        margin-left: 400px;
+        text-align: center;
         padding: 20px;
         -webkit-text-stroke-width: 2.5px;
         -webkit-text-stroke-color: #FFD8FB;
@@ -144,17 +144,15 @@
 }
 
 
+@media (max-width: 1023px) {
 
 
-@media (max-width: 767px) {
-
-    /* modificar tamaño de imagen de la portada */
     .foto_portada {
         width: auto;
         height: 50%;
     }
 
-    /* modificar alineación de textos */
+
     .textos_portada {
         display: flex;
         flex-direction: column;
@@ -171,7 +169,7 @@
         }
     }
 
-    /* modifica el tamaño de la imagen de servicios */
+
     .foto_descuento {
         & img {
             width: 100%;
@@ -179,7 +177,7 @@
         }
     }
 
-    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+
     .categoria {
 
         & h2 {
@@ -188,7 +186,68 @@
         }
     }
 
-    .sitioweb p {
-        font-size: 1rem;
+    #sitioweb2 {
+        & p {
+            text-align: center;
+            margin-left: 40px;
+            padding: 20px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #FFD8FB;
+            font-size: 4rem;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+
+    .textos_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorazul);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+
+    .foto_descuento {
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    .categoria {
+
+        & h2 {
+            font-size: 2rem;
+            text-transform: none;
+        }
+    }
+
+    #sitioweb2 {
+        & p {
+            text-align: center;
+            margin-left: 40px;
+            padding: 0px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #FFD8FB;
+            font-size: 2.5rem;
+        }
     }
 }
